@@ -6,9 +6,9 @@ lr_policy: "step"
 gamma: 0.1
 stepsize: 2500
 display: 50
-max_iter: 20000
+max_iter: 30000
 momentum: 0.9
 weight_decay: 0.0005
-snapshot: 10000
+snapshot: 6000
 snapshot_prefix: "/data6/light/storm_1_1/images/ad_train_py/caffe_model/caffe_model_1"
 solver_mode: GPU

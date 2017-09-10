@@ -34,6 +34,7 @@ class CaffePredict(object):
         # Define image transformers
         self.transformer = caffe.io.Transformer({'data': self.net.blobs['data'].data.shape})
         self.transformer.set_mean('data', mean_array)
+        # puts the channel as the first dimention
         self.transformer.set_transpose('data', (2, 0, 1))
 
     def predict(self, img):
