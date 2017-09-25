@@ -597,16 +597,12 @@ if __name__ == '__main__':
 ![这里写图片描述](http://img.blog.csdn.net/20170909213105846?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaGFsdW9sdW8yMTE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 
-本文主要参考了下面这两个英文bolg，同时做了大量修改，主要是分享给使用caffe做图片学习需要的人：
-
 > http://adilmoujahid.com/posts/2016/06/introduction-deep-learning-python-caffe/
 >
 > https://software.intel.com/en-us/articles/training-and-deploying-deep-learning-networks-with-caffe-optimized-for-intel-architecture
 
-[本文](http://blog.csdn.net/haluoluo211/article/details/77918156！)代码在个人的[github](https://github.com/Jayhello/python_caffe_train_test "github代码地址")上面，感觉不错的话记得start一下哈。写这篇bolg花了我大量时间，希望尊重一下我的劳动哈，以后有更好的内容早分享给大家，如果转载的话，注明[出处](http://blog.csdn.net/haluoluo211/article/details/77918156！)哈
-http://blog.csdn.net/haluoluo211/article/details/77918156！
 
-# project framework
+# English README project framework
 1. caffe_model:the training and deploy prototxt files
 
 2. train_data_generate:generate training lmdb, validation lmdb, and mean_binaryproto
